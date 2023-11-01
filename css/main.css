@@ -652,8 +652,14 @@ h2 {
 .main__experience:not(.education) {
   min-height: 150px;
 }
+.main__experience:not(.karbord) {
+  min-height: 200px;
+}
 .education {
   height: 50px;
+}
+.karbord{
+  height: 200px;
 }
 @media (min-width: 1024px) {
   .main__experience {
